@@ -26,7 +26,7 @@ CursoR::atualizar_material()
 knitr::kable(
   tibble::tibble(
     slide = CursoR:::list_github_files("dashboard-mestre", "slides/", "html"),
-    link = paste0("https://curso-r.github.io/dashboard-mestre/slides/", slide)
+    link = paste0("https://curso-r.github.io/dashboard-mestre/", slide)
   )
 )
 ```
