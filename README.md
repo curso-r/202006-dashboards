@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/curso-r/202006-dashboards/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Baixar ou atualizar material
 
-### Markdown
+    install.packages("remotes")
+    remotes::install_github("curso-r/CursoR")
+    
+    CursoR::atualizar_material()
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Slides
 
-```markdown
-Syntax highlighted code block
+| slide                         | link                                                                            |
+| :---------------------------- | :------------------------------------------------------------------------------ |
+| 01-introducao\_ao\_curso.html | <https://curso-r.github.io/dashboard-mestre/slides/01-introducao_ao_curso.html> |
+| 02-shiny-introducao.html      | <https://curso-r.github.io/dashboard-mestre/slides/02-shiny-introducao.html>    |
+| 03-reatividade-parte-1.html   | <https://curso-r.github.io/dashboard-mestre/slides/03-reatividade-parte-1.html> |
+| 04-layouts.html               | <https://curso-r.github.io/dashboard-mestre/slides/04-layouts.html>             |
+| 05-shinydashboards.html       | <https://curso-r.github.io/dashboard-mestre/slides/05-shinydashboards.html>     |
+| 06-reatividade-parte-2.html   | <https://curso-r.github.io/dashboard-mestre/slides/06-reatividade-parte-2.html> |
+| 07-htmlwidgets.html           | <https://curso-r.github.io/dashboard-mestre/slides/07-htmlwidgets.html>         |
+| 07-htmlwidgets.Rmd            | <https://curso-r.github.io/dashboard-mestre/slides/07-htmlwidgets.Rmd>          |
+| 08-flexdashboard.html         | <https://curso-r.github.io/dashboard-mestre/slides/08-flexdashboard.html>       |
 
-# Header 1
-## Header 2
-### Header 3
+## Scripts feitos em aula
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/curso-r/202006-dashboards/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+| script              | link                                                                          |
+| :------------------ | :---------------------------------------------------------------------------- |
+| 00-exemplo-kmeans.R | <https://curso-r.github.io/dashboard-mestre/scripts_aula/00-exemplo-kmeans.R> |
