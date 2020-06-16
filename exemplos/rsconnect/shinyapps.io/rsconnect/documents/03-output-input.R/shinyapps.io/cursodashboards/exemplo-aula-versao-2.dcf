@@ -1,0 +1,13 @@
+name: exemplo-aula-versao-2
+title: exemplo-aula-versao-2
+username:
+account: cursodashboards
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2459870
+bundleId: 3274695
+url:
+     https://cursodashboards.shinyapps.io/exemplo-aula-versao-2/
+when: 1592268913.58311
+asMultiple: FALSE
+asStatic: FALSE
