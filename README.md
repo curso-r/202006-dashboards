@@ -23,5 +23,9 @@
 
 ## Scripts feitos em aula
 
-| script | link |
-| :----- | :--- |
+| script              | link                                                                          |
+| :------------------ | :---------------------------------------------------------------------------- |
+| 00-exemplo-kmeans.R | <https://curso-r.github.io/dashboard-mestre/scripts_aula/00-exemplo-kmeans.R> |
+| 01-ola-mundo.R      | <https://curso-r.github.io/dashboard-mestre/scripts_aula/01-ola-mundo.R>      |
+| 02-output.R         | <https://curso-r.github.io/dashboard-mestre/scripts_aula/02-output.R>         |
+| 03-output-input.R   | <https://curso-r.github.io/dashboard-mestre/scripts_aula/03-output-input.R>   |
