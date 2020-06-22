@@ -37,7 +37,7 @@ knitr::kable(
 knitr::kable(
   tibble::tibble(
     script = list.files("scripts_aula/", pattern = ".R"),
-    link = paste0("https://curso-r.github.io/dashboard-mestre/scripts_aula/", script)
+    link = paste0("https://curso-r.github.io/202006-dashboards/scripts_aula/", script)
   )
 )
 ```
