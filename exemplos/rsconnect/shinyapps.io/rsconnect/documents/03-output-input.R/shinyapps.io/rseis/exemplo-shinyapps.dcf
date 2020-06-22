@@ -6,8 +6,7 @@ server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2458872
 bundleId: 3273730
-url:
-     https://rseis.shinyapps.io/exemplo-shinyapps/
+url: https://rseis.shinyapps.io/exemplo-shinyapps/
 when: 1592251394.32202
 asMultiple: FALSE
 asStatic: FALSE

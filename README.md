@@ -29,3 +29,9 @@
 | 01-ola-mundo.R      | <https://curso-r.github.io/dashboard-mestre/scripts_aula/01-ola-mundo.R>      |
 | 02-output.R         | <https://curso-r.github.io/dashboard-mestre/scripts_aula/02-output.R>         |
 | 03-output-input.R   | <https://curso-r.github.io/dashboard-mestre/scripts_aula/03-output-input.R>   |
+| 04-hist-normal.R    | <https://curso-r.github.io/dashboard-mestre/scripts_aula/04-hist-normal.R>    |
+| 05-dois-outputs.R   | <https://curso-r.github.io/dashboard-mestre/scripts_aula/05-dois-outputs.R>   |
+| 06-reactive.R       | <https://curso-r.github.io/dashboard-mestre/scripts_aula/06-reactive.R>       |
+| 07-eventReactive.R  | <https://curso-r.github.io/dashboard-mestre/scripts_aula/07-eventReactive.R>  |
+| 08-debug.R          | <https://curso-r.github.io/dashboard-mestre/scripts_aula/08-debug.R>          |
+| 09-dados.R          | <https://curso-r.github.io/dashboard-mestre/scripts_aula/09-dados.R>          |

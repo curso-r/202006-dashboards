@@ -6,7 +6,7 @@ ui <- fluidPage(
     inputId = "num",
     label = "Selecione o tamanho da amostra",
     min = 1,
-    max = 1000,
+    max = 1000, 
     value = 100
   ),
   textInput(inputId = "titulo", label = "Título do gráfico"),
@@ -17,11 +17,9 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   
-  
   amostra <- reactive({
-    rnorm(input$num) 
+    rnorm(input$num)
   })
-
   
   output$hist <- renderPlot({
     hist(amostra(), main = input$titulo)

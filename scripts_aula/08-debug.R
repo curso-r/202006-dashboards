@@ -7,9 +7,10 @@ ui <- fluidPage(
     label = "Selecione o tamanho da amostra",
     min = 1,
     max = 1000,
-    value = 100
+    value = 100,
   ),
   textInput(inputId = "titulo", label = "Título do gráfico"),
+  actionButton("atualizar", "Gerar gráfico"),
   plotOutput(outputId = "hist"),
   "Tabela com sumário",
   tableOutput(outputId = "sumario")
@@ -17,14 +18,17 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   
-  
   amostra <- reactive({
-    rnorm(input$num) 
+    rnorm(input$num)
   })
-
+  
+  titulo <- eventReactive(input$atualizar, ignoreNULL = TRUE, {
+    browser()
+    input$titulo
+  })
   
   output$hist <- renderPlot({
-    hist(amostra(), main = input$titulo)
+    hist(amostra(), main = titulo())
   })
   
   output$sumario <- renderTable({
