@@ -23,18 +23,21 @@
 
 ## Scripts feitos em aula
 
-| script              | link                                                                           |
-| :------------------ | :----------------------------------------------------------------------------- |
-| 00-exemplo-kmeans.R | <https://curso-r.github.io/202006-dashboards/scripts_aula/00-exemplo-kmeans.R> |
-| 01-ola-mundo.R      | <https://curso-r.github.io/202006-dashboards/scripts_aula/01-ola-mundo.R>      |
-| 02-output.R         | <https://curso-r.github.io/202006-dashboards/scripts_aula/02-output.R>         |
-| 03-output-input.R   | <https://curso-r.github.io/202006-dashboards/scripts_aula/03-output-input.R>   |
-| 04-hist-normal.R    | <https://curso-r.github.io/202006-dashboards/scripts_aula/04-hist-normal.R>    |
-| 05-dois-outputs.R   | <https://curso-r.github.io/202006-dashboards/scripts_aula/05-dois-outputs.R>   |
-| 06-reactive.R       | <https://curso-r.github.io/202006-dashboards/scripts_aula/06-reactive.R>       |
-| 07-eventReactive.R  | <https://curso-r.github.io/202006-dashboards/scripts_aula/07-eventReactive.R>  |
-| 08-debug.R          | <https://curso-r.github.io/202006-dashboards/scripts_aula/08-debug.R>          |
-| 09-dados.R          | <https://curso-r.github.io/202006-dashboards/scripts_aula/09-dados.R>          |
-| 11-gridsystem.R     | <https://curso-r.github.io/202006-dashboards/scripts_aula/11-gridsystem.R>     |
-| 12-sidebarLayout.R  | <https://curso-r.github.io/202006-dashboards/scripts_aula/12-sidebarLayout.R>  |
-| duvidas.R           | <https://curso-r.github.io/202006-dashboards/scripts_aula/duvidas.R>           |
+| script                     | link                                                                                  |
+| :------------------------- | :------------------------------------------------------------------------------------ |
+| 00-exemplo-kmeans.R        | <https://curso-r.github.io/202006-dashboards/scripts_aula/00-exemplo-kmeans.R>        |
+| 01-ola-mundo.R             | <https://curso-r.github.io/202006-dashboards/scripts_aula/01-ola-mundo.R>             |
+| 02-output.R                | <https://curso-r.github.io/202006-dashboards/scripts_aula/02-output.R>                |
+| 03-output-input.R          | <https://curso-r.github.io/202006-dashboards/scripts_aula/03-output-input.R>          |
+| 04-hist-normal.R           | <https://curso-r.github.io/202006-dashboards/scripts_aula/04-hist-normal.R>           |
+| 05-dois-outputs.R          | <https://curso-r.github.io/202006-dashboards/scripts_aula/05-dois-outputs.R>          |
+| 06-reactive.R              | <https://curso-r.github.io/202006-dashboards/scripts_aula/06-reactive.R>              |
+| 07-eventReactive.R         | <https://curso-r.github.io/202006-dashboards/scripts_aula/07-eventReactive.R>         |
+| 08-debug.R                 | <https://curso-r.github.io/202006-dashboards/scripts_aula/08-debug.R>                 |
+| 09-dados.R                 | <https://curso-r.github.io/202006-dashboards/scripts_aula/09-dados.R>                 |
+| 11-gridsystem.R            | <https://curso-r.github.io/202006-dashboards/scripts_aula/11-gridsystem.R>            |
+| 12-sidebarLayout.R         | <https://curso-r.github.io/202006-dashboards/scripts_aula/12-sidebarLayout.R>         |
+| 13-navbarPage.R            | <https://curso-r.github.io/202006-dashboards/scripts_aula/13-navbarPage.R>            |
+| 14-shinydashboard-layout.R | <https://curso-r.github.io/202006-dashboards/scripts_aula/14-shinydashboard-layout.R> |
+| 15-shinydashboard-menu.R   | <https://curso-r.github.io/202006-dashboards/scripts_aula/15-shinydashboard-menu.R>   |
+| duvidas.R                  | <https://curso-r.github.io/202006-dashboards/scripts_aula/duvidas.R>                  |
