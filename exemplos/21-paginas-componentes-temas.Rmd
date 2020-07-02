@@ -11,11 +11,12 @@ output:
 library(flexdashboard)
 library(tidyverse)
 
-credit <- read_rds("../dados/credit.rds")
+credit <- read_rds("../dados/credito.rds")
 ```
 
 Perfil financeiro
 =======================================================================
+
 
 Column {data-width=250}
 -----------------------------------------------------------------------
@@ -23,7 +24,7 @@ Column {data-width=250}
 ### Número de clientes
 
 ```{r}
-valueBox(nrow(credit), icon = "fa-users", color = "success")
+valueBox(nrow(credit), icon = "fa-users", color = "#fad111")
 ```
 
 ### Valor médio dos empréstimos
@@ -60,8 +61,9 @@ gauge(prop_divida, min = 0, max = 100, symbol = "%", gaugeSectors(colors = "dang
 prop_bons <- sum(credit$status == "bom")/nrow(credit)
 prop_bons <- scales::percent(prop_bons, digits = 1)
 
-gauge(prop_bons, min = 0, max = 100, symbol = "%", gaugeSectors(
-  success = c(80, 100), warning = c(40, 79), danger = c(0, 39)))
+gauge(10, min = 0, max = 100, symbol = "%", sectors = gaugeSectors(
+  success = c(0, 40), warning = c(40, 79), danger = c(80, 100))
+)
 ```
 
 

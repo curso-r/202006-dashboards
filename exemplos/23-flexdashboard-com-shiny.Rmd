@@ -2,7 +2,7 @@
 title: "FlexShiny"
 output: 
   flexdashboard::flex_dashboard:
-    orientation: columns
+    orientation: rows
     vertical_layout: fill
 runtime: shiny
 ---
@@ -13,7 +13,7 @@ library(tidyverse)
 imdb <- read_rds("../dados/imdb.rds")
 ```
 
-Column {.sidebar}
+Column
 -----------------------------------------------------------------------
 
 Você pode colocar todos os inputs aqui.
@@ -28,12 +28,53 @@ selectInput(
     "Lucro" = "lucro"
   )
 )
+
+selectInput(
+  inputId = "variavel2",
+  label = "Selecione a variável",
+  choices = c(
+    "Orçamento" = "orcamento", 
+    "Receita" = "receita", 
+    "Lucro" = "lucro"
+  )
+)
+
+selectInput(
+  inputId = "variavel3",
+  label = "Selecione a variável",
+  choices = c(
+    "Orçamento" = "orcamento", 
+    "Receita" = "receita", 
+    "Lucro" = "lucro"
+  )
+)
 ```
 
 Column
 -----------------------------------------------------------------------
 
 ### Chart B
+
+```{r}
+renderPlot({
+  imdb %>% 
+    mutate(lucro = receita - orcamento) %>% 
+    pivot_longer(cols = one_of(c("orcamento", "receita", "lucro"))) %>% 
+    filter(name == input$variavel) %>% 
+    group_by(ano) %>% 
+    summarise(valor_medio = mean(value, na.rm = TRUE)) %>% 
+    filter(!is.na(valor_medio)) %>% 
+    ggplot(aes(x = ano, y = valor_medio)) +
+    geom_line() +
+    labs(y = input$variavel) +
+    theme_minimal()
+})
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Chart C
 
 ```{r}
 renderPlot({

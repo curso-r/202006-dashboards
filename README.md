@@ -46,5 +46,10 @@
 | 19-leaflet.R                 | <https://curso-r.github.io/202006-dashboards/scripts_aula/19-leaflet.R>                 |
 | 20-auth0.R                   | <https://curso-r.github.io/202006-dashboards/scripts_aula/20-auth0.R>                   |
 | 21-reactiveValues.R          | <https://curso-r.github.io/202006-dashboards/scripts_aula/21-reactiveValues.R>          |
+| 22-fileInput.R               | <https://curso-r.github.io/202006-dashboards/scripts_aula/22-fileInput.R>               |
+| 23-dowloadButton.R           | <https://curso-r.github.io/202006-dashboards/scripts_aula/23-dowloadButton.R>           |
+| 24-exemplo-mapa-Julio.R      | <https://curso-r.github.io/202006-dashboards/scripts_aula/24-exemplo-mapa-Julio.R>      |
 | duvidas\_aula2.R             | <https://curso-r.github.io/202006-dashboards/scripts_aula/duvidas_aula2.R>              |
 | duvidas\_aula5.R             | <https://curso-r.github.io/202006-dashboards/scripts_aula/duvidas_aula5.R>              |
+| duvidas\_aula6.R             | <https://curso-r.github.io/202006-dashboards/scripts_aula/duvidas_aula6.R>              |
+| exemplo-flex.Rmd             | <https://curso-r.github.io/202006-dashboards/scripts_aula/exemplo-flex.Rmd>             |

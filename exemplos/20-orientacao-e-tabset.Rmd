@@ -1,12 +1,14 @@
 ---
 title: "Orientação e tabsets"
-date: "Junho de 2019"
+date: "Junho de 2020"
 author: "Curso-r e alunos"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
     vertical_layout: fill
     navbar:
+      - {icon: "fa-github", href: "https://github.com/curso-r"}
+      - {icon: "fa-github", href: "https://github.com/curso-r"}
       - {icon: "fa-github", href: "https://github.com/curso-r"}
 ---
 
@@ -103,6 +105,13 @@ A seguir um exemplo de um código em HTML para inserir uma imagem ao dashboard.
 <img src="https://raw.githubusercontent.com/phalt/pokeapi/master/data/Pokemon_XY_Sprites/7.png">
 </center>
 ```
+
+```{r}
+shiny::img(src = "https://raw.githubusercontent.com/phalt/pokeapi/master/data/Pokemon_XY_Sprites/1.png")
+shiny::img(src = "https://raw.githubusercontent.com/phalt/pokeapi/master/data/Pokemon_XY_Sprites/4.png")
+shiny::img(src = "https://raw.githubusercontent.com/phalt/pokeapi/master/data/Pokemon_XY_Sprites/7.png")
+```
+
 
 <center>
 <img src="https://raw.githubusercontent.com/phalt/pokeapi/master/data/Pokemon_XY_Sprites/1.png">

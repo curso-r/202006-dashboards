@@ -39,6 +39,22 @@ pkmn %>%
   ) %>% 
   hc_xAxis(title = "") %>%
   hc_colors(cores)
+
+pkmn %>%
+  dplyr::count(tipo_1) %>% 
+  hchart(
+    type = "bar", 
+    hcaes(x = tipo_1, y = n),
+    showInLegend = FALSE,
+    colorByPoint = TRUE,
+    name = "Qtd. de pokémon"
+  ) %>% 
+  hc_yAxis(
+    reversed = FALSE,
+    title = list(text = "Número de pokémon")
+  ) %>% 
+  hc_xAxis(title = "") %>%
+  hc_colors(cores)
 ```
 
 ***
@@ -109,7 +125,9 @@ imdb %>%
 
 ### Continue estudando
 
-<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif">
+```{r}
+shiny::img(src = "https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif")
+```
 
 ***
 

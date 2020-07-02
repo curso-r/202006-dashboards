@@ -8,13 +8,22 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
-library(tidyverse)
+# library(tidyverse)
+library(magrittr)
 ```
 
 Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Uma tabela
+
+```{r}
+mtcars %>% 
+  head(15) %>% 
+  knitr::kable()
+```
+
+### Outra tabela
 
 ```{r}
 mtcars %>% 
